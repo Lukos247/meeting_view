@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:gravity="center"
+            android:text="Укажите вашу дату рождения"
+            android:layout_width="300dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <DatePicker
+            style="@style/MyDatePickerSpinnerStyle"
+            android:theme="@style/MyDatePickerSpinnerStyle"
+            android:calendarTextColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:id="@+id/edit_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn"
+            style="@style/Btn"
+            android:text="@string/btnNext" />
+
+        <TextView
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="Шаг 5 из 5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</layout>

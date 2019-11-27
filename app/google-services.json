@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1082788253894",
+    "firebase_url": "https://pushthetempo.firebaseio.com",
+    "project_id": "pushthetempo",
+    "storage_bucket": "pushthetempo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082788253894:android:1df18b06df964197e2c7c7",
+        "android_client_info": {
+          "package_name": "date.crono.love"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082788253894-bc63lt91j6693559kjcpo4fden28qdh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsaCFZh4pbGFm8YvhCSO6VNAJozh_3PxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082788253894-bc63lt91j6693559kjcpo4fden28qdh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082788253894:android:2a06790447511c25e2c7c7",
+        "android_client_info": {
+          "package_name": "znakomstva.creative.finder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082788253894-bc63lt91j6693559kjcpo4fden28qdh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsaCFZh4pbGFm8YvhCSO6VNAJozh_3PxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082788253894-bc63lt91j6693559kjcpo4fden28qdh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

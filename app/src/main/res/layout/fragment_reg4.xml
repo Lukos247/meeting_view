@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="Выберите интересующий Вас пол"
+            android:layout_width="300dp"
+            android:padding="10dp"
+            android:fontFamily="sans-serif"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <RadioGroup
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio1"
+                android:text="@string/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+            <RadioButton
+                android:id="@+id/radio2"
+                android:text="@string/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn"
+            style="@style/Btn"
+            android:text="@string/btnNext" />
+        <TextView
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="Шаг 4 из 5"
+            android:fontFamily="sans-serif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</layout>

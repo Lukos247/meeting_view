@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:text="Для вас подобраны следующие анкеты:"
+            android:layout_width="300dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="3"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn"
+            style="@style/Btn"
+            android:text="Пропустить.." />
+    </LinearLayout>
+</layout>

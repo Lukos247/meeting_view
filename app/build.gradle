@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        versionCode 7
+        versionName "8"
+        applicationId "date.crono.love"
+        minSdkVersion 21
+        targetSdkVersion 28
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+
+
+    implementation 'com.github.hzw1199:AwesomeWebView-Android:1.7.1'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.google.android.material:material:1.1.0-alpha09'
+    implementation 'com.squareup.retrofit2:retrofit:2.6.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.6.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.1'
+
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+    implementation 'com.facebook.android:facebook-android-sdk:5.1.0'
+    implementation 'com.facebook.android:facebook-android-sdk:5.1.0'
+    implementation 'com.airbnb.android:lottie:3.0.7'
+    implementation 'com.github.delight-im:Android-AdvancedWebView:v3.0.0'
+
+    implementation 'com.google.firebase:firebase-analytics:17.2.0'
+    implementation 'com.google.firebase:firebase-messaging:20.0.0'
+
+
+}
+apply plugin: 'com.google.gms.google-services'

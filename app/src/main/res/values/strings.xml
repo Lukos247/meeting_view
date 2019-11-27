@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Find Love!</string>
+    <string name="app_fb">957216521324030</string>
+
+    <string name="btnLogin">Авторизация</string>
+    <string name="btnReg">Регистрация</string>
+    <string name="hint_email">Почта</string>
+    <string name="hint_login">Login</string>
+    <string name="hint_pass">Пароль</string>
+    <string name="back">Восстановить доступ</string>
+    <string name="btnPass">Отправить</string>
+    <string name="pod">Введите ваш E-mail, для восстановления доступа</string>
+    <string name="btnData">Найти знакомства</string>
+    <string name="btnNext">Далее</string>
+    <string name="hint_reg2">Имя</string>
+    <string name="hint_city">Город</string>
+    <string name="radio1">Мужчину</string>
+    <string name="radio2">Женщину</string>
+    <string name="reg4">Кого Вы ищите?</string>
+    <string name="reg5">Дата рождения</string>
+    <string name="error_email">Ошибка! Введите email</string>
+    <string name="error_name">Ошибка! Введите имя</string>
+    <string name="error_city">Ошибка! Введите город </string>
+    <string name="error_radio">Ошибка! Сделайте выбор</string>
+    <string name="error_login">Ошибка! Введите данные</string>
+</resources>
